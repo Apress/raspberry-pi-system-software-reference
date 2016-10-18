@@ -1,0 +1,32 @@
+This software applies to the Apress book:
+
+  Mastering the Raspberry Pi  
+  ISBN13: 978-1-484201-82-4
+  User Level: Intermediate to Advanced
+  Publishing August 31, 2014
+
+  Warren W. Gay VE3WWG
+
+  http://www.apress.com/9781484201824
+
+
+The current snapshot of the git repository is available by executing
+the command:
+
+$ git clone git@github.com:ve3wwg/raspberry_pi.git
+
+The source code will be deposited into your subdirectory ./raspberry_pi
+
+On the Raspberry Pi, simply cd to this directory and type:
+
+  $ make
+
+Or you may cd into any project subdirectory and type make:
+
+  $ cd ./bipolar
+  $ make
+
+If you make changes to the source code and you want to rebuild 
+completely from scratch, you can use:
+
+  $ make clobber all
